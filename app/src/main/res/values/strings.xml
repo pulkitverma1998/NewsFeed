@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">News Feed</string>
+
+    <string name="headline">This is the headline of the news.</string>
+
+    <string name="webPublicationDate">Web Publication Date</string>
+
+    <string name="sectionName">Section Name</string>
+
+    <string name="noNewsFound">No News Found.</string>
+
+    <string name="searchBoxEmpty">Please Enter Something In The Search Box</string>
+
+    <string name="noInternet">Your Device Is Not Connected To The Internet</string>
+</resources>

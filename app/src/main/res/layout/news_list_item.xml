@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/layout_bg"
+    android:backgroundTint="#E0E0E0">
+
+    <TextView
+        android:id="@+id/webTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:maxLines="2"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:text="@string/headline" />
+
+    <TextView
+        android:id="@+id/sectionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/webTitle"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#B4BAC0"
+        tools:text="@string/sectionName" />
+
+    <TextView
+        android:id="@+id/webPublicationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/webTitle"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/sectionName"
+        android:textColor="#B4BAC0"
+        tools:text="@string/webPublicationDate" />
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/webPublicationDate"
+        android:layout_margin="8dp"
+        tools:src="@drawable/newsthumbnail" />
+
+</RelativeLayout>
